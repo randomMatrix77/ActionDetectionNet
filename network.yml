@@ -1,0 +1,15 @@
+transformer:
+  d_model : 4096
+  n_head : 8
+  n_hid : 2
+  n_layers : 2
+  d_out : 3
+image_config:
+  in_channels : 2048
+  out_channels : 1024
+temporal_config:
+  frames : 5
+bridgenet:
+  in_channels: 2048
+  out_channels: 1024
+  latent_image_size: 4
